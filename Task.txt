@@ -1,0 +1,12 @@
+The index.html and style.css files contain the basic structure of a navbar.
+You are required to complete the following features using only HTML and CSS -
+
+1. change the color of the links - HOME, COURSES, RESULTS from white to black on hovering. 
+The color change should occur within 0.3s.
+
+2. add responsiveness at these window sizes
+    < 768 px, RESULTS link should disappear, background color of navbar should change to ADD8E6.
+    < 600 px, COURSES link should disappear
+    < 520 px, HOME link should disappear.
+
+3. The navbar should appear as depicted in the image - requirement1.jpg

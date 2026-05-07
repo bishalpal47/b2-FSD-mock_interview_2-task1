@@ -1,0 +1,72 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  background-color: saffron;
+  background-color: #ff9933;
+  color: white;
+  padding: 15px 40px;
+}
+
+/* Logo */
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Nav Links */
+.nav-links {
+  list-style: none;
+  gap: 30px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+
+}
+
+/* Buttons */
+.auth-buttons {
+  gap: 10px;
+}
+
+.auth-buttons button {
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+/* Login Button */
+.login-btn {
+  background-color: white;
+  color: #ff9933;
+}
+
+/* Signup Button */
+.signup-btn {
+  background-color: black;
+  color: white;
+}
+
+/* Hover Effects */
+.login-btn:hover,
+.signup-btn:hover {
+  opacity: 0.8;
+}
+
+/* Responsive */
