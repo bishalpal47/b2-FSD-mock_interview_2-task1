@@ -1,12 +1,22 @@
+Dear student,
+You MUST read the entire document very carefully. Then move towards performing the tasks.
+
 The index.html and style.css files contain the basic structure of a navbar.
 You are required to complete the following features using only HTML and CSS -
 
-1. change the color of the links - HOME, COURSES, RESULTS from white to black on hovering. 
+1. The navbar should appear as depicted in the image - requirement1.jpg
+
+2. change the color of the links - HOME, COURSES, RESULTS from white to black on hovering. 
 The color change should occur within 0.3s.
 
-2. add responsiveness at these window sizes
-    < 768 px, RESULTS link should disappear, background color of navbar should change to ADD8E6.
-    < 600 px, COURSES link should disappear
-    < 520 px, HOME link should disappear.
+3. add responsiveness at these window sizes
+    less than 768 px, RESULTS link should disappear, background color of navbar should change to ADD8E6.
+    less than 600 px, COURSES link should disappear
+    less than 520 px, HOME link should disappear.
 
-3. The navbar should appear as depicted in the image - requirement1.jpg
+
+You need to get create a copy of this repository on your GitHub account.
+You must create a copy of the entire repository on your local machine.
+Make the changes mentioned above on a branch named task-1.
+Push all the changes to YOUR remote repository from YOUR master/main branch.
+Create a PR on GitHub to send your changes for review.
