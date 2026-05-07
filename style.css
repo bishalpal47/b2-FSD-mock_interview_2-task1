@@ -15,8 +15,13 @@ body {
   background-color: saffron;
   background-color: #ff9933;
   color: white;
+  position: relative;
   padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
 }
+
+
 
 /* Logo */
 .logo {
@@ -28,13 +33,23 @@ body {
 .nav-links {
   list-style: none;
   gap: 30px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  
 }
 
 .nav-links a {
   text-decoration: none;
   color: white;
   font-weight: bold;
+  
+  transition: color 0.3s;
 
+}
+
+.nav-links a:hover {
+  color: black;
 }
 
 /* Buttons */
@@ -70,3 +85,24 @@ body {
 }
 
 /* Responsive */
+@media(max-width: 768px){
+  .navbar {
+    background-color: #add8e6;
+  }
+
+  .nav-links .c {
+    opacity: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .nav-links .b {
+    opacity: 0;
+  }
+}
+
+@media (max-width: 520px) {
+  .nav-links .a {
+    opacity: 0;
+  }
+}
